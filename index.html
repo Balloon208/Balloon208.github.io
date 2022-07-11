@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        *{
+            margin:0;
+            background-position: left;
+        }
+        .tiercontainer{
+            width: 1200px;
+            overflow: hidden;
+        }
+        #container{
+            width: 100%;
+            overflow: hidden;
+            background-image: url("./images/space.webp");
+            z-index: -1;
+        }
+        h1{
+            padding: 50px;
+            width: auto;
+            margin: 0px 0px 50px 0px;
+            background-color: black;
+            text-align: center;
+            color: white;
+        }
+        p{
+            overflow: hidden;
+        }
+        hr{
+            margin-top: 15px;
+            width:100%;
+            margin-bottom: 45px;
+        }
+        video{
+            background-color: black;
+            float: left;
+            margin-right: 30px;
+            width:350px;
+            height:200px;
+        }
+        h2.big{
+            font-size: 25px;
+            padding: 30px 0px 10px 0px;
+        }
+        .iron{
+            background-color: rgba(170,170,170, 1);
+            height: 200px;
+            width: 80%;
+            color: rgba(170,170,170, 1);
+            overflow: hidden;
+        }
+        .iron:hover{
+            transition-timing-function: ease-out;
+            transition-duration: 1s;
+            background-color: rgba(100, 100, 100, 1);
+            color: white;
+        }
+        .bronze{
+            background-color: rgba(170,170,170, 1);
+            height: 200px;
+            width: 80%;
+            color: rgba(170,170,170, 1);
+            overflow: hidden;
+        }
+        .bronze:hover{
+            transition-timing-function: ease-out;
+            transition-duration: 1s;
+            background-color:rgba(129, 102, 28, 1);
+            color: white;
+        }
+        .silver{
+            background-color: rgba(170,170,170, 1);
+            height: 200px;
+            width: 80%;
+            color: rgba(170,170,170, 1);
+            overflow: hidden;
+        }
+        .silver:hover{
+            transition-timing-function: ease-out;
+            transition-duration: 1s;
+            background-color:rgba(20, 89, 112, 0.9);
+            color:white;
+        }
+        .gold{
+            background-color: rgba(170,170,170, 1);
+            height: 200px;
+            width: 80%;
+            color: rgba(170,170,170, 1);
+            overflow: hidden;
+        }
+        .gold:hover{
+            transition-timing-function: ease-out;
+            transition-duration: 1s;
+            background-color:rgba(142, 140, 17, 1);
+            color:white;
+        }
+        .platinum{
+            background-color: rgba(170,170,170, 1);
+            height: 200px;
+            width: 80%;
+            color: rgba(170,170,170, 1);
+            overflow: hidden;
+        }
+        .platinum:hover{
+            transition-timing-function: ease-out;
+            transition-duration: 1s;
+            background-color:rgb(15, 95, 36);
+            color:white;
+        }
+        .diamond{
+            background-color: rgba(170,170,170, 1);
+            height: 200px;
+            width: 80%;
+            color: rgba(170,170,170, 1);
+            overflow: hidden;
+        }
+        .diamond:hover{
+            transition-timing-function: ease-out;
+            transition-duration: 1s;
+            background-color:rgb(132, 132, 132);
+            color: white;
+        }
+        .master{
+            background-color: rgba(170,170,170, 1);
+            height: 200px;
+            width: 80%;
+            color: rgba(170,170,170, 1);
+            overflow: hidden;
+        }
+        .master:hover{
+            transition-timing-function: ease-out;
+            transition-duration: 1s;
+            background-color:rgb(146, 148, 4);
+            color: white;
+        }
+        .grandmaster{
+            background-color: rgba(170,170,170, 1);
+            height: 200px;
+            width: 80%;
+            color: rgba(170,170,170, 1);
+            overflow: hidden;
+        }
+        .grandmaster:hover{
+            transition-timing-function: ease-out;
+            transition-duration: 1s;
+            background-color:rgb(97, 0, 13);
+            color: white;
+        }
+        p{
+            margin-right: 30px;
+        }
+
+        .footer{
+            height:80px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 50px 0 0 0;
+        }
+
+        a{
+            color:white;
+        }
+        a:hover{
+            transition-duration: .3s;
+            color:plum;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>DJMAX RESPECT V</h1>
+        <h2 style="padding-left: 20px; color: #fff;">티어 등급</h2>
+        <hr>
+        <div class="tiercontainer">
+            <div class="iron">
+                <video src="./images/iron.mp4" loop="" autoplay="" muted=""></video>
+                <h2 class="big"> 아이언/언랭크드 </h2>
+                <p>아이언 티어는 정말 초보가 아니면 되기 힘들다. 가장 낮은 티어로 초보중에서 초보들이 속한다. 조금만 노력하면 브론즈로 승급을 할 수 있다.</p>
+            </div>
+            <div class="bronze">
+                <video src="./images/bronze.mp4" loop="" autoplay="" muted=""></video>
+                <h2 class="big"> 브론즈 </h2>
+                <p>브론즈 티어 역시 하위 10% 정도만 차지하는 티어이다. 처리력만 좋다면 실버로 승급하기 쉽다. 주로 정확도 90%~99%를 보여준다</p>
+            </div>
+            <div class="silver">
+                <video src="./images/sliver.mp4" loop="" autoplay="" muted=""></video>
+                <h2 class="big"> 실버 </h2>
+                <p>실버 티어는 대부분 유저가 속하는 티어이다. 배치고사때 퍼펙트 플레이를 못하면 주로 실버 2에 배치되며 
+                    상위 90%~35%의 유저가 이 티어에 있다. 실버2 기준 주로 정확도 98.5%~99.9%를 보인다.</p>
+            </div>
+            <div class="gold">
+                <video src="./images/gold.mp4" loop="" autoplay="" muted=""></video>
+                <h2 class="big"> 골드 </h2>
+                <p>실력자들이 많이 보이는 티어이다. 곡 난이도가 기하급수적으로 상승하며,
+                    주로 상위 35%~15% 내의 유저가 포함 된다.
+                    주로 정확도 99.7%~99.95%를 보인다.</p>
+            </div>
+            <div class="platinum">
+                <video src="./images/platinum.mp4" loop="" autoplay="" muted=""></video>
+                <h2 class="big"> 플레티넘 </h2>
+                <p>고인물이 간간히 보이는 티어이다. 곡 난이도가 상당히 높으며, 
+                    판정도 서로 좋아 퍼펙트 플레이로 인한 무승부도 빈번히 일어난다.
+                    이때부터 2개 이상의 버튼을 사용해야 하며,
+                    주로 상위 15% 이상의 유저가 포함 된다.
+                    주로 정확도 99.7%~100%를 보인다.</p>
+            </div>
+            <div class="diamond">
+                <video src="./images/diamond.mp4" loop="" autoplay="" muted=""></video>
+                <h2 class="big"> 다이아몬드 </h2>
+                <p>고인물들의 티어이다. 곡 난이도가 매우 높으며, 
+                    판정도 서로 좋아 퍼펙트 플레이로 인한 무승부도 흔하게 일어난다.
+                    다이아몬드1 부터는 4개의 버튼 모두 사용해야하며,
+                    주로 정확도 99.9%~100%를 보인다.</p>
+            </div>
+            <div class="master">
+                <video src="./images/master.mp4" loop="" autoplay="" muted=""></video>
+                <h2 class="big"> 마스터 </h2>
+                <p>승급전으로 도달할수 있는 마지막 티어이다.
+                    다이아 1이상과 매칭되면 기본적으로 1, 2라운드가 하드판정(21ms)이며, 
+                    3라운드는 맥스(10.5ms)판정이다. 마스터에서도 구간이 나뉘어져 있지만,
+                    최하위 마스터에서도 하드판정이 99%정도 나온다.
+                </p>
+            </div>
+            <div class="grandmaster">
+                <video src="./images/grandmaster.mp4" loop="" autoplay="" muted=""></video>
+                <h2 class="big"> 그랜드마스터 </h2>
+                <p>마스터 중 최상위 5명이 이 티어에 도달할 수 있다. LP 기준 랭킹 5위안에 들면 자동 승급된다.
+                </p>
+            </div>
+            <br>
+        </div>
+        <hr>
+        <div class ="footer">
+            <a href="https://store.steampowered.com/app/960170/DJMAX_RESPECT_V/">DJMAX RESPECT V 구매하기</h2>
+        </div>
+    </div>
+
+    
+
+    
+</body>
+</html>
